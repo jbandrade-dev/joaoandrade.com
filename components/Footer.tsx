@@ -17,10 +17,6 @@ const buttons = [
     }, {
       name: "Sobre",
       link: ""
-    },
-    {
-      name: "Contato",
-      link: ""
     }
     ]
   },
@@ -30,26 +26,35 @@ const buttons = [
     panel:
       [
         {
-          name: "Trem do Samba",
+          name: "Reimont",
           link: ""
         },
         {
-          name: "Feira das Yabás",
+          name: "Timer (estudo)",
+          link: ""
+        },
+        {
+          name: "Todo List (estudo)",
           link: ""
         }
+
       ]
   },
   {
     id: uuidv4(),
-    title: 'Agenda',
+    title: 'Contato',
     panel:
       [
         {
-          name: "Roda de samba",
+          name: "Telefone",
           link: ""
         },
         {
-          name: "Feijoada",
+          name: "Email",
+          link: ""
+        },
+        {
+          name: "Briefing",
           link: ""
         }
       ]
@@ -73,7 +78,7 @@ export function Footer() {
         }
       </ul>
       <Text className="flex justify-center text-[10px] mb-4">
-        Made with❤️by
+        Made with ❤️ by
         <a className="ml-0.5" href="https://www.joaoandrade.com/">João Andrade</a>
       </Text>
     </footer >

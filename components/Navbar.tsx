@@ -11,7 +11,7 @@ export function Navbar() {
       <MenuExpanded />
       </div>
       <Menu/>
-      <SocialNetworks tailwind="flex gap-2 text-purple-500 items-center mr-3" size={32} />
+      <SocialNetworks tailwind="flex gap-2 text-purple-500 items-center" size={32} />
     </nav>
   );
 }
